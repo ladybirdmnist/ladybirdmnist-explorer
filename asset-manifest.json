@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ladybirdmnist-explorer/static/css/main.fc1f7b71.css",
+    "main.js": "/ladybirdmnist-explorer/static/js/main.6999b919.js",
+    "index.html": "/ladybirdmnist-explorer/index.html",
+    "main.fc1f7b71.css.map": "/ladybirdmnist-explorer/static/css/main.fc1f7b71.css.map",
+    "main.6999b919.js.map": "/ladybirdmnist-explorer/static/js/main.6999b919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc1f7b71.css",
+    "static/js/main.6999b919.js"
+  ]
+}

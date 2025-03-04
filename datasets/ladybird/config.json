@@ -1,0 +1,74 @@
+{
+    "title": "ladybird",
+    "datasetInfo": "",
+    "embeddings": [
+        {
+            "name": "PCA",
+            "file": "embeddings_PCA.json"
+        },
+        {
+            "name": "label_label",
+            "file": "label_label.json"
+        },
+        {
+            "name": "efficientnet_b0_pca",
+            "file": "efficientnet_b0_pca.json"
+        },
+        {
+            "name": "efficientnet_b0_tsne",
+            "file": "efficientnet_b0_tsne.json"
+        },
+        {
+            "name": "efficientnet_b0_umap",
+            "file": "efficientnet_b0_umap.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [
+            "label"
+        ],
+        "clusterColors": [
+            "#dc143c",
+            "#ffa500",
+            "#ffd700",
+            "#32cd32",
+            "#008080",  
+            "#4169e1",
+            "#800080",
+            "#ff00ff",
+            "#d2691e",
+            "#708090"
+        ]
+    },
+    "total": 1000,
+    "sliders": [
+        {
+            "id": "label",
+            "title": "label",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#848887",
+            "min": 0,
+            "max": 9
+        },
+        {
+            "id": "Du",
+            "title": "Du",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#e982fd",
+            "min": -4.341637,
+            "max": -2.2633283
+        }
+    ],
+    "info": [
+        "label"
+    ],
+    "search": [],
+    "url_prefix": "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID",
+    "sprite_side": 32,
+    "sprite_dir": "ladybird",
+    "sprite_number": 1,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}

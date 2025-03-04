@@ -1,0 +1,93 @@
+{
+    "title": "Testset",
+    "datasetInfo": "",
+    "embeddings": [
+        {
+            "name": "PCA",
+            "file": "PCA.json"
+        },
+        {
+            "name": "UMAP",
+            "file": "UMAP.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [],
+        "clusterColors": []
+    },
+    "total": 1000,
+    "sliders": [
+        {
+            "id": "Colorfulness",
+            "title": "Colorfulness",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#8c868c",
+            "min": 0.27,
+            "max": 147.47
+        },
+        {
+            "id": "Colors",
+            "title": "Colors",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#8efe95",
+            "min": 258,
+            "max": 83515
+        },
+        {
+            "id": "Contrast",
+            "title": "Contrast",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#f683fd",
+            "min": 2.897289120160856,
+            "max": 101.57670874535056
+        },
+        {
+            "id": "File Size",
+            "title": "File Size",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#f7c086",
+            "min": 4673,
+            "max": 48466
+        },
+        {
+            "id": "PC1",
+            "title": "PC1",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#93bcf7",
+            "min": -25.49999999995,
+            "max": 25.49999999995
+        },
+        {
+            "id": "PC2",
+            "title": "PC2",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#c9dfc6",
+            "min": -25.49999999995,
+            "max": 25.49999999995
+        }
+    ],
+    "info": [
+        "Prompt",
+        "Colors",
+        "Contrast",
+        "File Size"
+    ],
+    "search": [
+        {
+            "columnField": "Prompt",
+            "type": "selection"
+        }
+    ],
+    "url_prefix": "https://github.com/Collection-Space-Navigator/CSN/raw/main/example_data/testset_images/",
+    "sprite_side": 32,
+    "sprite_dir": "testset",
+    "sprite_number": 1,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}

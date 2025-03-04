@@ -1,0 +1,145 @@
+{
+    "title": "ladybirdmnist-morph128",
+    "datasetInfo": "",
+    "embeddings": [
+        {
+            "name": "grid",
+            "file": "label_label.json"
+        },
+        {
+            "name": "efficientnet_b0_pca",
+            "file": "efficientnet_b0_pca.json"
+        },
+        {
+            "name": "efficientnet_b0_tsne",
+            "file": "efficientnet_b0_tsne.json"
+        },
+        {
+            "name": "efficientnet_b0_umap",
+            "file": "efficientnet_b0_umap.json"
+        },
+        {
+            "name": "resnet18_pca",
+            "file": "resnet18_pca.json"
+        },
+        {
+            "name": "resnet18_tsne",
+            "file": "resnet18_tsne.json"
+        },
+        {
+            "name": "resnet18_umap",
+            "file": "resnet18_umap.json"
+        },
+        {
+            "name": "resnet50_pca", 
+            "file": "resnet50_pca.json"
+        },
+        {
+            "name": "resnet50_tsne",
+            "file": "resnet50_tsne.json"
+        },
+        {
+            "name": "resnet50_umap",
+            "file": "resnet50_umap.json"
+        },
+        {
+            "name": "vgg11_pca",
+            "file": "vgg11_pca.json"    
+        },
+        {
+            "name": "vgg11_tsne",
+            "file": "vgg11_tsne.json"
+        },
+        {
+            "name": "vgg11_umap",
+            "file": "vgg11_umap.json"
+        },
+        {
+            "name": "vgg16_pca",
+            "file": "vgg16_pca.json"
+        },
+        {
+            "name": "vgg16_tsne",
+            "file": "vgg16_tsne.json"
+        },
+        {
+            "name": "vgg16_umap",
+            "file": "vgg16_umap.json"
+        },
+        {
+            "name": "vit_base_patch16_224_pca", 
+            "file": "vit_base_patch16_224_pca.json"
+        },
+        {
+            "name": "vit_base_patch16_224_tsne",
+            "file": "vit_base_patch16_224_tsne.json"
+        },
+        {
+            "name": "vit_base_patch16_224_umap",
+            "file": "vit_base_patch16_224_umap.json"
+        },
+        {
+            "name": "vit_small_patch16_224_pca",
+            "file": "vit_small_patch16_224_pca.json"
+        },
+        {
+            "name": "vit_small_patch16_224_tsne",
+            "file": "vit_small_patch16_224_tsne.json"
+        },
+        {
+            "name": "vit_small_patch16_224_umap",
+            "file": "vit_small_patch16_224_umap.json"
+        },
+        {
+            "name": "vit_tiny_patch16_224_pca",
+            "file": "vit_tiny_patch16_224_pca.json"
+        },
+        {
+            "name": "vit_tiny_patch16_224_tsne",
+            "file": "vit_tiny_patch16_224_tsne.json"
+        },
+        {
+            "name": "vit_tiny_patch16_224_umap",
+            "file": "vit_tiny_patch16_224_umap.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [
+            "label"
+        ],
+        "clusterColors": [
+            "#dc143c",
+            "#ffa500",
+            "#ffd700",
+            "#32cd32",
+            "#008080",
+            "#4169e1",
+            "#800080",
+            "#ff00ff",
+            "#d2691e",
+            "#708090"
+        ]
+    },
+    "total": 70000,
+    "sliders": [
+        {
+            "id": "label",
+            "title": "label",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#8c8486",
+            "min": 0,
+            "max": 9
+        }
+    ],
+    "info": [
+        "label"
+    ],
+    "search": [],
+    "url_prefix": "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID",
+    "sprite_side": 32,
+    "sprite_dir": "ladybirdmnist-morph128",
+    "sprite_number": 69,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}
